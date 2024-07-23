@@ -33,8 +33,7 @@ This project is a web application built with Streamlit that allows users to visu
 - Use the interactive charts to explore the data.
 
 ## Data Sources
-- Johns Hopkins University
-- World Health Organization (WHO)
+Kaggle
 
 ## Contributing
 We welcome contributions! Please open an issue or submit a pull request.
