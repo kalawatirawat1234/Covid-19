@@ -9,7 +9,7 @@ import plotly.graph_objects as go
 
 
 world_data = pd.read_csv("worldometer_data.csv")
-group_data = pd.read_csv("country_wise_latest.csv")
+group_data = pd.read_csv("full_grouped.csv")
 day_wise = pd.read_csv("day_wise.csv")
 
 # Streamlit title
