@@ -4,19 +4,13 @@ import os
 import streamlit as st
 from plotly.subplots import make_subplots  # for creating subplots in plotly
 import plotly.graph_objects as go
-
-files=os.listdir(r'C:\Users\deepr\OneDrive\Desktop\project1\Covid-19')
-files
-# Function to read CSV data
-def read_data(path, filename):
-    return pd.read_csv(os.path.join(path, filename))
+)
 
 
-# Load data
-path = r'C:\Users\deepr\OneDrive\Desktop\project1\Covid-19'
-world_data = read_data(path, 'worldometer_data.csv')
-group_data = read_data(path, files[3])
-day_wise = read_data(path,files[2])
+
+world_data = pd.read_csv("worldometer_data.csv")
+group_data = pd.read_csv("country_wise_latest.csv")
+day_wise = pd.read_csv("day_wise.csv")
 
 # Streamlit title
 st.title("Corona Analysis")
