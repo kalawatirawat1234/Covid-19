@@ -5,4 +5,3 @@ matplotlib
 seaborn
 numpy
 scipy
-os
